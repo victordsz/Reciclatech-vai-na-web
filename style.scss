@@ -1,0 +1,70 @@
+
+// estilo geral
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+// estilo do cabeçalho
+
+header{
+    padding: 40px 4%;
+    
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+header a{
+    text-decoration: none;
+    color:black
+    // display: inline-block;
+}
+
+header a:hover{
+    color: #2563EB;
+    // transform
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #21C05C;
+    border: 0;
+    border-radius: 2px;
+
+}
+
+header .btn-contato button:hover{
+    background-color: #16A34A;
+}
+
+
