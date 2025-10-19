@@ -53,6 +53,15 @@ body{
     transition:.2s;
 }
 
+h2.titulo{
+    color: #4B5563;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #21C05C;
+}
 // estilo do cabeçalho
 
 header{
@@ -90,7 +99,7 @@ header nav ul li{
 // estilo-do-topo-do-site
 
 section.topo-do-site{
-    padding: 40px 4%;
+    padding: 20px 4%;
     
 }
 
@@ -114,6 +123,45 @@ section.topo-do-site .flex{
     color:#4B5563;
     margin: 5px 0;
 }
+
+// Estilo da section 2
+
+section.informações{
+    padding: 50px 4%;
+}
+
+section.informações .flex{
+    gap: 60px;
+}
+
+.informações .informações-box{
+    color: aliceblue;
+    padding: 48px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 45px;
+
+}
+
+informações .informações-box:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 8px white;
+}
+
+.informações .informações-box i{
+    font-size: 70px;
+    color: #21C05C
+
+}
+
+.informações .informações-box p{
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+
+
+
 
 
 

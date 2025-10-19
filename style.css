@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +48,16 @@ body {
   transition: 0.2s;
 }
 
+h2.titulo {
+  color: #4B5563;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2.titulo span {
+  color: #21C05C;
+}
+
 header {
   padding: 40px 4%;
 }
@@ -79,7 +90,7 @@ header nav ul li {
 }
 
 section.topo-do-site {
-  padding: 40px 4%;
+  padding: 20px 4%;
 }
 
 section.topo-do-site .flex {
@@ -101,4 +112,35 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
   color: #4B5563;
   margin: 5px 0;
+}
+
+section.informações {
+  padding: 50px 4%;
+}
+
+section.informações .flex {
+  gap: 60px;
+}
+
+.informações .informações-box {
+  color: aliceblue;
+  padding: 48px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 45px;
+}
+
+informações .informações-box:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 8px white;
+}
+
+.informações .informações-box i {
+  font-size: 70px;
+  color: #21C05C;
+}
+
+.informações .informações-box p {
+  font-size: 36px;
+  margin: 15px 0;
 }/*# sourceMappingURL=style.css.map */
