@@ -13,11 +13,16 @@ body {
 
 .interface {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0rem;
 }
 
 .flex {
   display: flex;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn-contato button {
@@ -37,15 +42,21 @@ body {
   transform: scale(1.04);
 }
 
-.btn-branco {
-  background-color: aliceblue;
+.btn-comprar button {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
+  background-color: #ffffff;
   border: 0;
   border-radius: 2px;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.btn-comprar button:hover {
+  background-color: #00acac;
+  box-shadow: 0px 0px 8px rgb(108, 108, 108);
+  transform: scale(1.04);
 }
 
 h2.titulo {
@@ -146,6 +157,6 @@ informações .informações-box:hover {
 }
 
 .fácil {
-  font-size: 5vh;
+  font-size: 2vh;
   color: #21C05C;
 }/*# sourceMappingURL=style.css.map */
