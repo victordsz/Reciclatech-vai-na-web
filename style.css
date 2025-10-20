@@ -143,4 +143,9 @@ informações .informações-box:hover {
 .informações .informações-box p {
   font-size: 36px;
   margin: 15px 0;
+}
+
+.fácil {
+  font-size: 5vh;
+  color: #21C05C;
 }/*# sourceMappingURL=style.css.map */
