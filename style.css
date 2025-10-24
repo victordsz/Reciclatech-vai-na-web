@@ -9,6 +9,7 @@
 body {
   background-color: rgb(220, 220, 220);
   height: 100vh;
+  margin: 2rem;
 }
 
 .interface {
@@ -71,6 +72,7 @@ h2.titulo span {
 
 header {
   padding: 40px 4%;
+  width: 100%;
 }
 
 header > .interface {
@@ -123,10 +125,14 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
   color: #4B5563;
   margin: 5px 0;
+  text-align: justify;
+  font-size: 18px;
 }
 
 section.informações {
   padding: 50px 4%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 section.informações .flex {
@@ -137,11 +143,10 @@ section.informações .flex {
   color: aliceblue;
   padding: 48px;
   border-radius: 20px;
-  border: 2px solid black;
   margin-top: 45px;
 }
 
-informações .informações-box:hover {
+.informações .informações-box:hover {
   transform: scale(1.07);
   box-shadow: 0 0 8px white;
 }
@@ -156,7 +161,220 @@ informações .informações-box:hover {
   margin: 15px 0;
 }
 
-.fácil {
-  font-size: 2vh;
+.Paragrafo-informativo {
+  font-size: 4vh;
   color: #21C05C;
+  display: flex;
+  justify-content: center;
+}
+
+.como-funciona-box {
+  background-color: #F0FDF4;
+  border-radius: 6px;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 6px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#banco-dados {
+  width: 100%;
+  height: 30vh;
+  background-color: rgba(243, 245, 248, 0);
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+#banco-dados article .dados {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#banco-dados .dados h2 {
+  color: #21c05c;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+#banco-dados .medidas {
+  color: #6d6c6c;
+}
+
+#caixa {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.infoWorks1, .infoWorks2 {
+  width: 30vw;
+  height: 60vh;
+  border-radius: 30px;
+  background-color: #f3f5f8;
+  color: #f3f5f8;
+  display: inline-block;
+}
+.infoWorks1 img, .infoWorks2 img {
+  width: 3vw;
+  left: 50px;
+}
+.infoWorks1 figure, .infoWorks2 figure {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.infoWorks1 figure figcaption, .infoWorks2 figure figcaption {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+.infoWorks1 figure .para-doadores, .infoWorks2 figure .para-doadores {
+  color: #21c05c;
+  width: 15vw;
+}
+.infoWorks1 figure .para-adquirintes, .infoWorks2 figure .para-adquirintes {
+  color: #2563eb;
+  width: 15vw;
+}
+.infoWorks1 p, .infoWorks2 p {
+  font-size: 1.2rem;
+  color: #000;
+}
+.infoWorks1 ol, .infoWorks2 ol {
+  padding: 1px;
+  color: #000;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+p {
+  text-align: center;
+}
+
+.howWorks-article {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#produtos-avaliados {
+  width: 100%;
+  height: 110vh;
+  padding: 2rem;
+}
+
+article .Categoriapopularparagraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.categorias {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categoria {
+  width: 100%;
+  margin: 25px;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.categoria img {
+  width: 20vw;
+  height: 30vh;
+}
+.categoria button {
+  background-color: #21c05c;
+  color: #f3f5f8;
+  margin: 6px;
+  font-weight: 600;
+  padding: 0.6rem;
+  font-size: 15px;
+  height: 10vh;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#feedbacks {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+#feedbacks img {
+  width: 7vw;
+}
+#feedbacks h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.1rem;
+}
+#feedbacks p {
+  color: #4B5563;
+}
+
+.depoimentos {
+  width: 100%;
+  display: flex;
+}
+.depoimentos .comentarios {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.depoimentos .comentarios .photoedit {
+  display: flex;
+  justify-content: space-between;
+}
+.depoimentos .comentarios .photo {
+  border: solid;
+  width: 23px;
+  height: 45px;
+}
+
+.nomes {
+  text-align: center;
+  width: 10vw;
+  font-family: "Inter", sans-serif;
+}
+
+#banco-dados p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f3f5f8;
+}
+
+#produtos-avaliados p {
+  font-size: 1rem;
+  color: #222;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

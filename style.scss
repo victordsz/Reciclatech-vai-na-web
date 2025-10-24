@@ -11,6 +11,7 @@
 body{
     background-color: rgb(220, 220, 220);
     height: 100vh;
+    margin: 2rem;
 
 }
 
@@ -76,6 +77,7 @@ h2.titulo span{
 
 header{
     padding: 40px 4%;
+    width: 100%;
     
 }
 
@@ -110,6 +112,7 @@ header nav ul li{
 
 section.topo-do-site{
     padding: 20px 4%;
+    // border: solid black;
     
 }
 
@@ -117,6 +120,8 @@ section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
+    // border: solid red;
+
 }
 
 .topo-do-site h1{
@@ -132,12 +137,18 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color:#4B5563;
     margin: 5px 0;
+    // border: solid red;
+    text-align: justify;
+    font-size: 18px;
 }
 
-// Estilo da section 2
+// Estilo da section 1
 
 section.informações{
     padding: 50px 4%;
+    // border: solid blue;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 section.informações .flex{
@@ -148,19 +159,18 @@ section.informações .flex{
     color: aliceblue;
     padding: 48px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-top: 45px;
 
 }
 
-informações .informações-box:hover{
+.informações .informações-box:hover{
     transform: scale(1.07);
     box-shadow: 0 0 8px white;
 }
 
 .informações .informações-box i{
     font-size: 70px;
-    color: #21C05C
+    color: #21C05C;
 
 }
 
@@ -169,7 +179,265 @@ informações .informações-box:hover{
     margin: 15px 0;
 }
 
-.fácil{
-    font-size: 2vh;
+.Paragrafo-informativo{
+    font-size: 4vh;
     color: #21C05C;
+    display: flex;
+    justify-content: center;
+}
+
+.como-funciona-box{
+    background-color: #F0FDF4;
+    border-radius: 6px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 6px;
+    font-size: 40px;
+    // border: solid rgb(247, 251, 6);
+    display: flex;
+    justify-content: space-evenly;
+}
+// Estilo da section 2
+
+#banco-dados {
+    width: 100%;
+    height: 30vh;
+    background-color: #f3f5f800;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    article .dados{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        // border: solid green;
+    }
+
+    .dados h2{
+        color:#21c05c;
+        font-size: 4em;
+        font-weight: bold;
+        text-align: center;
+       
+    }
+
+    .medidas{
+        color:#6d6c6c;
+        
+    }
+
+}
+
+
+#caixa {
+    display: flex;
+    justify-content: space-evenly;
+    // border: solid blueviolet;
+}
+
+.infoWorks1, .infoWorks2{
+    width: 30vw;
+    height: 60vh;
+    border-radius: 30px;
+    background-color: #f3f5f8;
+    color:#f3f5f8;
+    display: inline-block;
+
+    img{
+        width: 3vw;
+        // display: flex;
+        // justify-content: center;
+        left: 50px;
+
+    }
+
+    figure {
+        padding: 1rem;   
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        figcaption {
+            font-size: 1.4rem;
+            font-family: "Poppins", sans-serif;
+        }
+        .para-doadores {
+            color:#21c05c;
+            width: 15vw; 
+        }
+        .para-adquirintes{
+            color:#2563eb;
+            width: 15vw; 
+        }
+    }
+
+    p{
+        font-size: 1.2rem;
+        color:#000;
+    }
+
+    ol{  
+
+        padding: 1px;
+        color:#000;
+        font-size: 1.1rem;
+        font-family: "Poppins", sans-serif;
+        // border: solid rgb(255, 123, 0);
+        list-style-type: none;
+        // display: flex;
+        // justify-content: space-evenly; esta ajustando dentro da caixa não fora 
+}
+
+    }
+
+    li {
+        padding: .5rem;
+    }
+
+    p {
+        text-align: center;
+    }
+
+.howWorks-article {   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#produtos-avaliados{
+    width: 100%;
+    height: 110vh;
+    padding: 2rem;
+    // display: flex;
+    // justify-content: space-evenly;
+
+    // border: solid red;
+}
+
+article .Categoriapopularparagraph{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    
+    // border: solid yellow;
+}
+
+.categorias{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.categoria{
+    width: 100%;
+    margin: 25px;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+    background-color:#fff;
+    // border: solid #21c05c;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+     img{
+        width: 20vw;
+        height: 30vh;
+    }
+    button {
+        background-color: #21c05c;
+        color:#f3f5f8;
+        margin: 6px;
+        font-weight: 600;
+        padding: 0.6rem;   
+        font-size: 15px;
+        height: 10vh;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+
+    }
+
+}
+
+#feedbacks {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+
+    img {
+        width: 7vw;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0.1rem;
+    }
+
+    p {
+        color: #4B5563;
+    }
+}
+
+.depoimentos {
+    width: 100%;
+    display: flex;
+
+    .comentarios {
+        text-align: center;
+        background-color:#fff;
+        border-radius: 10px;;
+        margin: 1rem;
+        padding: 1rem;
+        height: 60vh;
+        display: flex;
+        align-items: center; 
+        // <!--alinha o texto dentro da div--!>
+        flex-direction: column;
+        justify-content: space-between;
+         .photoedit {
+            display: flex;
+            justify-content:space-between;
+
+        }
+
+        .photo{
+            border: solid; 
+            width: 23px;  
+            height: 45px;
+        }
+
+    }
+}
+
+.nomes {
+    // display: flex; desse jeito o texto nõ alinha dentro da div
+    // justify-content: space-between; o correto é colocar na class da div geral
+    text-align: center;
+    width: 10vw;
+    font-family: "Inter", sans-serif;
+    // border: solid red;
+}
+
+
+#banco-dados p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f3f5f8;
+}
+
+#produtos-avaliados p {
+    font-size: 1rem;
+    color: #222;
+    text-align: center;
 }
