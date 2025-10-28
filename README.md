@@ -23,3 +23,11 @@ Responsividade – Compatível com desktop e mobile
 Git/GitHub – Controle de versão
 
 Vercel – Hospedagem online
+
+✨ Minha Experiência no Projeto
+
+Desenvolver o Reciclatech foi uma experiência muito enriquecedora. Durante o processo, consegui colocar em prática o que aprendi nas aulas do Vai na Web, entendendo na prática como organizar a estrutura de um site com HTML5, aplicar estilos modulares com SASS, e garantir uma boa responsividade entre diferentes dispositivos.
+
+Além disso, aprendi a utilizar o Git e o GitHub para versionar o código e manter um controle mais profissional do projeto, e também a publicar o site na Vercel, tornando o trabalho acessível online.
+
+O projeto me ajudou a compreender melhor o fluxo completo de desenvolvimento — desde a ideia até a publicação — e reforçou minha confiança em criar interfaces simples, funcionais e sustentáveis. 🌱
